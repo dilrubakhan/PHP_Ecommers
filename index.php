@@ -48,52 +48,65 @@
               <img src="images/levis.jpg" alt="Levis Jeans" class="img-thumbnail"/>
               <p class="list-price text-danger">List Price: <s>$24.99</s></p>
               <p class="price">Our Price: $19.99</p>
-              <button type="button" class="btn btn-success" data-toggle="modal" dat-target="#details-1">Details</button>
+              <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-1">Details</button>
           </div>
               <div class="col-md-3">
                 <h4>Addidas Football</h>
                 <img src="images/football.jpg" alt="Addidas Football" class="img-thumbnail"/>
                 <p class="list-price text-danger">List Price: <s>$39.99</s></p>
                 <p class="price">Our Price: $25.99</p>
-                <button type="button" class="btn btn-success" data-toggle="modal" dat-target="#details-2">Details</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-2">Details</button>
               </div>
               <div class="col-md-3">
                 <h4>Watches</h>
                 <img src="images/watchs.jpg" alt="Watches" class="img-thumbnail"/>
                 <p class="list-price text-danger">List Price: <s>$134.99</s></p>
                 <p class="price">Our Price: $99.99</p>
-                <button type="button" class="btn btn-success" data-toggle="modal" dat-target="#details-3">Details</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-3">Details</button>
               </div>
               <div class="col-md-3">
                 <h4>Polo Shirt</h>
                 <img src="images/polo_shirt.jpg" alt="Polo Shirt" class="img-thumbnail"/>
                 <p class="list-price text-danger">List Price: <s>$54.99</s></p>
                 <p class="price">Our Price: $34.99</p>
-                <button type="button" class="btn btn-success" data-toggle="modal" dat-target="#details-4">Details</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-4">Details</button>
               </div>
               <div class="col-md-3">
                 <h4>Purse</h>
                 <img src="images/parse.jpg" alt="Purse" class="img-thumbnail"/>
                 <p class="list-price text-danger">List Price: <s>$99.99</s></p>
                 <p class="price">Our Price: $74.99</p>
-                <button type="button" class="btn btn-success" data-toggle="modal" dat-target="#details-5">Details</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-5">Details</button>
               </div>
               <div class="col-md-3">
                 <h4>Hoodie</h>
                 <img src="images/hoodie.jpg" alt="Hoodie" class="img-thumbnail"/>
                 <p class="list-price text-danger">List Price: <s>$59.99</s></p>
-                <p class="price">Our Price: 34.99</p>
-                <button type="button" class="btn btn-success" data-toggle="modal" dat-target="#details-6">Details</button>
+                <p class="price">Our Price: $34.99</p>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-6">Details</button>
               </div>
               <div class="col-md-3">
                 <h4>Headbands</h>
                 <img src="images/headbands.jpg" alt="Headbands" class="img-thumbnail"/>
                 <p class="list-price text-danger">List Price: <s>$9.99</s></p>
                 <p class="price">Our Price: $4.99</p>
-                <button type="button" class="btn btn-success" data-toggle="modal" dat-target="#details-5">Details</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-7">Details</button>
               </div>
             </div>
-            <footer class="text-center" id="footer">&copyright 2018 Red Stone Shop</footer>
+
         </div>
+      <footer class="text-center" id="footer">&copyright 2018 Red Stone Shop</footer>
+      <!--Details modal-->
+      <?php
+        include 'details-modal-LevisJeans.php';
+        include 'details-modal-Football.php';
+        include 'details-modal-Watch.php';
+        include 'details-modal-Headband.php';
+        include 'details-modal-Hoodie.php';
+        include 'details-modal-Purse.php';
+        include 'details-modal-Joggers.php';
+        include 'details-modal-Poloshirt.php';
+      ?>
+
   </body>
 </html>

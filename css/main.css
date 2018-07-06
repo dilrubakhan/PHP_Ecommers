@@ -44,3 +44,8 @@ body{
   top: 15%;
   margin-top: -90px;
 }
+#footer{
+  margin-top: 50px;
+  background-color: #800000;
+  color:  #FFFFFF;
+}
